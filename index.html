@@ -94,7 +94,13 @@
       font-weight: bold;
       cursor: pointer;
     }
-
+ img.header-banner {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
     time {
       color: #666;
       font-size: 0.9em;
@@ -105,7 +111,8 @@
 
 <div id="container">
   <div style="text-align:center;">
-    Tracking ID :
+ <img class="header-banner" src="https://storage.googleapis.com/beans-images/production/original/2025-03-06/2025-03-06_c53ac27a-c0f3-4400-8160-1ab17376731d.jpg" alt="Header Image">
+   Tracking ID :
     <input type="text" id="searchInput" placeholder="Enter ID">
     <button id="searchBtn">Search</button>
   </div>
